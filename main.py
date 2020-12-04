@@ -3,8 +3,7 @@ from discord.ext import commands
 from discord.ext.commands import has_permissions
 import os.path
 
-tolkein = os.getenv('DISCORD_BOT_TOKEN')
-TOKEN = "Nzg0MDIwOTgwNDU5NzY1NzYy.X8jOcA.dYethgEOhssN7b6Wl-oah32MOzw"
+TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 bot = commands.Bot(command_prefix='}')
 
 
